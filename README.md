@@ -57,7 +57,8 @@ A nested class within Home that extends JPanel and draws the background image (a
 Main Method:
 
 The main method creates an instance of Home, starting the GUI application.
-![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/11fcebc4-![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/83331a91-700c-4457-8133-151101815dd9)
+![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/fee8fae0-223d-412e-aa0a-7ea000ea4057)
+
 
 #flight details
 Class Structure:
