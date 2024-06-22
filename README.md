@@ -75,6 +75,8 @@ Establishes a database connection using the conn class (assuming it's a custom c
 Executes a query (select * from flightdetails) to retrieve flight details.
 Populates the ResultSet rs with the data retrieved from the database.
 Scrollable Table:
+![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/5d875e39-b241-4b0f-82c7-035bca0db015)
+
 
 Creates a JScrollPane jsp to make the JTable scrollable.
 Sets the bounds (setBounds(0, 0, 800, 500)) for the scroll pane to fit within the frame.
@@ -119,6 +121,8 @@ Database Connectivity:
 
 Assumes the existence of a conn class for database connection (conn.s.executeUpdate(Query)).
 Frame Configuration:
+![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/5f7f2fea-c228-48cb-b866-149ea18eec51)
+
 
 Sets the size (setSize(900, 600)), location (setLocation(300, 150)), and makes the frame visible (setVisible(true)).
 Main Method:
@@ -160,11 +164,12 @@ Implements actionPerformed method to handle the action events for buttons (fetch
 Fetches customer details based on Aadhar number.
 Fetches flight details based on selected source and destination.
 Books the flight by inserting reservation details into the database with a randomly generated PNR and Ticket ID.
+![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/d1addeef-f6eb-4ffc-a347-12cf0b42dd5b)
+
 Frame Configuration:
-
 Sets the size (setSize(1000, 800)), location (setLocation(200, 50)), and makes the frame visible (setVisible(true)).
-Main Method:
 
+Main Method:
 The main method creates an instance of bookflights, starting the GUI application.
 
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/4e111d28-fa64-44b2-a046-540f66bc85c6)
