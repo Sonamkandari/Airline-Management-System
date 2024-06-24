@@ -37,6 +37,7 @@ The background color of the frame is set to white.
 Buttons are styled with black backgrounds and white text.
 Main Method
 The main method creates an instance of the Login class, making the login window visible.
+
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/3804a669-6834-4ad0-97f2-ab8cd7aee9e3)
 
 # Home page frame
@@ -57,6 +58,7 @@ A nested class within Home that extends JPanel and draws the background image (a
 Main Method:
 
 The main method creates an instance of Home, starting the GUI application.
+
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/fee8fae0-223d-412e-aa0a-7ea000ea4057)
 
 
@@ -75,6 +77,7 @@ Establishes a database connection using the conn class (assuming it's a custom c
 Executes a query (select * from flightdetails) to retrieve flight details.
 Populates the ResultSet rs with the data retrieved from the database.
 Scrollable Table:
+
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/5d875e39-b241-4b0f-82c7-035bca0db015)
 
 
@@ -87,6 +90,7 @@ Sets the size (setSize(800, 500)), location (setLocation(400, 200)), and makes t
 Main Method:
 
 The main method creates an anonymous instance of FlightDetails, initializing the GUI to display flight details when the program runs.
+
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/e272c608-2d86-4f4c-82e1-1500b275f08c)
 
 # Customer Details Frame
@@ -121,6 +125,7 @@ Database Connectivity:
 
 Assumes the existence of a conn class for database connection (conn.s.executeUpdate(Query)).
 Frame Configuration:
+
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/5f7f2fea-c228-48cb-b866-149ea18eec51)
 
 
@@ -164,6 +169,7 @@ Implements actionPerformed method to handle the action events for buttons (fetch
 Fetches customer details based on Aadhar number.
 Fetches flight details based on selected source and destination.
 Books the flight by inserting reservation details into the database with a randomly generated PNR and Ticket ID.
+
 ![image](https://github.com/Sonamkandari/Airline-Management-System/assets/145662567/d1addeef-f6eb-4ffc-a347-12cf0b42dd5b)
 
 Frame Configuration:
