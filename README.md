@@ -1,8 +1,7 @@
 # Airline-Management-System
    #Login frame
 
-   The Login class is a Java Swing application that creates a simple user login interface. It extends JFrame and implements ActionListener for handling button events.
-
+The Login class is a Java Swing application that creates a simple user login interface. It extends JFrame and implements ActionListener for handling button events.
 Components and Layout
 JLabel:
 
