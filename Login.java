@@ -1,5 +1,3 @@
-
-
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -20,9 +18,7 @@ public class Login extends JFrame implements ActionListener {
    JTextField userField;
    JPasswordField  passwordField;
     //here we are making a default constructor of the class 
-    public Login(){
-
-     
+    public Login(){ 
     //now with the help of labels we can write anything on the frmaes
     JLabel lbusername=new JLabel("User name");
     //now we have set this label on the frame
@@ -68,11 +64,7 @@ public class Login extends JFrame implements ActionListener {
     close.setBackground(Color.black);
     close.setForeground(Color.white);
     close.addActionListener(this);
-
-
-
-    
-    //we an also set the size of the frame   
+ //we an also set the size of the frame   
     setSize(400,350);
     //we notice that by default a frame is always open from the top left
     //we can change its location
@@ -114,16 +106,12 @@ public class Login extends JFrame implements ActionListener {
 
           }
 
-
         }else if(ae.getSource() == reset){
            userField.setText("");  //setting the field empty
            passwordField.setText("");// setting the field empty
 
         }else if(ae.getSource() == close){
-            setVisible(false);//it will close the frame
-
-
-        
+            setVisible(false);//it will close the frame    
     }
 }
 }
